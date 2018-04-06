@@ -1,0 +1,29 @@
+{
+  "name": "react-native-sound-playerview",
+  "version": "1.0.0",
+  "description": "audio player view using with react-native-sound and react-navigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benevbright/react-native-sound-playerview.git"
+  },
+  "keywords": [
+    "react-native",
+    "audio player",
+    "player",
+    "sound",
+    "audio"
+  ],
+  "author": "Bright Lee <benevbright@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-sound": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/benevbright/react-native-sound-playerview/issues"
+  },
+  "homepage": "https://github.com/benevbright/react-native-sound-playerview#readme"
+}
