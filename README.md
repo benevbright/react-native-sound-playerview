@@ -1,5 +1,5 @@
 # react-native-sound-playerview
-audio player view using with [react-native-sound](https://github.com/zmxv/react-native-sound) and `react-navigation`
+audio player view for iOS/Android using with [react-native-sound](https://github.com/zmxv/react-native-sound) and `react-navigation`
 
 <img src="https://github.com/benevbright/react-native-sound-playerview/blob/master/docs/demo.gif?raw=true">
 
@@ -29,3 +29,4 @@ const Navigation = StackNavigator({
 ```
 this.props.navigation.navigate('player', {title:__TITLE__, filepath:__AUDIO_FILEPATH__});
 ```
+*NOTE: `filepath` should be a full file path.
