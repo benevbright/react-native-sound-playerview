@@ -8,9 +8,10 @@ audio player view using with [react-native-sound](https://github.com/zmxv/react-
 
 `$ npm install react-native-sound-playerview`
 
-### Register Screen with `react-navigation`
+### Step 1. Register Screen with `react-navigation`
 
 ```
+import {StackNavigator} from 'react-navigation';
 import PlayerScreen from 'react-native-sound-playerview'
 
 ...
@@ -24,7 +25,7 @@ const Navigation = StackNavigator({
 ...
 ```
 
-### Navigate to 'react-native-sound-playerview'
+### Step 2. Navigate to 'react-native-sound-playerview'
 ```
 this.props.navigation.navigate('player', {title:__TITLE__, filepath:__AUDIO_FILEPATH__});
 ```
