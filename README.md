@@ -1,4 +1,7 @@
+
 # react-native-sound-playerview
+[![npm](https://img.shields.io/npm/v/react-native-sound-playerview.svg)](https://npmjs.com/package/react-native-sound-playerview) [![npm](https://img.shields.io/npm/dm/react-native-sound-playerview.svg)](https://npmjs.com/package/react-native-sound-playerview)
+
 audio player view for iOS/Android using with [react-native-sound](https://github.com/zmxv/react-native-sound) and `react-navigation`
 
 <img src="https://github.com/benevbright/react-native-sound-playerview/blob/master/docs/demo.gif?raw=true">
