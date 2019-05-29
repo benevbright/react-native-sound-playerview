@@ -65,9 +65,13 @@ export default class PlayerScreen extends React.Component{
             this.setState({playState:'playing'});
         }else{
             const filepath = this.props.navigation.state.params.filepath;
+            var dirpath = '';
+            if (this.props.navigation.state.params.dirpath) {
+                dirpath = this.props.navigation.state.params.dirpath;
+            }
             console.log('[Play]', filepath);
     
-            this.sound = new Sound(filepath, '', (error) => {
+            this.sound = new Sound(filepath, dirpath, (error) => {
                 if (error) {
                     console.log('failed to load the sound', error);
                     Alert.alert('Notice', 'audio file error. (Error code : 1)');
