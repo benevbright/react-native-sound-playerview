@@ -30,6 +30,6 @@ const Navigation = StackNavigator({
 
 ### Step 2. Navigate to 'react-native-sound-playerview'
 ```
-this.props.navigation.navigate('player', {title:__TITLE__, filepath:__AUDIO_FILEPATH__});
+this.props.navigation.navigate('player', {title: __TITLE__, filepath: __AUDIO_FILEPATH__, dirpath: Sound.MAIN_BUNDLE });
 ```
-*NOTE: `filepath` should be a full file path.
+*NOTE: `filepath` no longer have to be a full file path, you can pass additional prop `dirpath` and set it for example to Sound.MAIN_BUNDLE
